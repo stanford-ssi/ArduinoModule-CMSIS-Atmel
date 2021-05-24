@@ -544,7 +544,7 @@ void SDHC1_Handler               ( void );
  * \brief Configuration of the Cortex-M4 Processor and Core Peripherals
  */
 
-//#ifndef LITTLE_ENDIAN
+#ifndef LITTLE_ENDIAN
 #define LITTLE_ENDIAN          1        
 #endif
 #define __CM4_REV              1         /*!< Core revision r0p1 */
