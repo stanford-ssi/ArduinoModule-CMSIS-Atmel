@@ -39,6 +39,13 @@
               "size": "%%SIZE%%"
             },
             {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v%%VERSION%%/%%FILENAME%%",
+              "archiveFileName": "%%FILENAME%%",
+              "checksum": "SHA-256:%%CHECKSUM%%",
+              "size": "%%SIZE%%"
+            },
+            {
               "host": "all",
               "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v%%VERSION%%/%%FILENAME%%",
               "archiveFileName": "%%FILENAME%%",
